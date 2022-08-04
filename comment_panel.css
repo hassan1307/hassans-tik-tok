@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.comment-panel {
+    background-color: rgb(26, 26, 26);
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 0vh;
+    transition: 0.7s all;
+}
+
+.comment-panel .input > input{
+    display: none;
+    height: 0;
+    transition: 1s all;
+    background-color: rgb(26, 26, 26);
+    z-index: 100000;
+    color:white;
+}
+.comment-panel .input > button{
+    display: none;
+    height: 0;
+    transition: 1s all;
+}
+
+.hello {
+    height: 100vh;
+}
+
+.hello .input > input{
+    display: block;
+    height: auto;
+    
+}
+.hello .input > button{
+    display: block;
+    height: auto;
+    
+}
+
+.comment-box{
+    width:100%;
+    padding:0.8rem;
+    background-color: rgba(0,0,0,0.3);
+    color: white;
+    word-break: break-all;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 0.3rem;
+    align-items: center;
+    
+}
+.comment-box button{
+    background:transparent;
+    border:none;
+    color:gray;
+}
